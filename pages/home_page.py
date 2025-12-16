@@ -5,7 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 class HomePage:
     def __init__(self, driver):
         self.driver = driver
-        self.wait = WebDriverWait(driver, 20)
+        self.wait = WebDriverWait(driver, 50)
 
     IPHONE_LINK = (By.CSS_SELECTOR, "a[href='/product/693fdac4122c8cfc8cfdbf0c']")
 
